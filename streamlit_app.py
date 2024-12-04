@@ -4,6 +4,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk.sentiment.sentiment_analyzer import SentimentAnalyzer
 from textblob import TextBlob
 
+import nltk
 nltk.download('vader_lexicon')
 # Dear God -- https://docs.streamlit.io/develop/api-reference
 
